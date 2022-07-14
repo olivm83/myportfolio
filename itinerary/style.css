@@ -83,6 +83,7 @@ header li:hover{
         height: 50px;
         margin-top: 10px;
         overflow: hidden;
+        margin-top: 0;
     }
     
     h1{
