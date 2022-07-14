@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #F2DF3A;
 }
 /* HEADER */
 header{
@@ -10,7 +11,7 @@ header{
     text-align: left;
     position: fixed;
     top: 0;
-    background-color: #fff;
+    background-color: #F2DF3A;
 }
 
 header>ul{
@@ -25,20 +26,30 @@ h1{
     margin: 0;
     padding: 10px 0;
     text-align: center;
+    color: #0078AA;
+    font-weight: 800;
+    font-size: 1.7em;
     /* width: 16vw; */
 }
 
 header li{
     /* box-sizing: border-box; */
     /* width: max-content; */
-    border-radius: 0.4em;
+    /* border-radius: 0.4em; */
     padding: 3px 5px;
+    background-color: rgb(58 180 242 / 20%);
     margin: 3px 2px;
     height: fit-content;
     list-style: none;
+    /* color: #F2DF3A; */
+    /* border-bottom: 1px solid #fff; */
+    /* box-shadow: 0px 1px 4px 0px rgb(0 120 170 / 72%); */
 }
 a{
     text-decoration: none;
+    color: #0078AA;
+    font-weight: 600;
+    /* color: #3ab4f2; */
 }
 
 header li:hover{
@@ -49,7 +60,7 @@ header li:hover{
     display: flex;
     justify-content: space-evenly;
     width: 65vw;
-    background-color: rgba(78, 211, 244, 0.611);
+    background-color: #3AB4F2;
     margin: 0 auto;
     /* position: absolute; */
     /* top: 0; */
@@ -62,14 +73,31 @@ header li:hover{
 
 .destination {
     /* display: inline-block; */
-    margin-top: 0;
+    margin-top: 5px;
     /* height: 45vh; */
     width: 22%;
     padding: 0.5rem;
-    border-radius: 1em;
-    background-color: rgb(149, 202, 216);
+    /* border-radius: 1em; */
+    background-color: #fff;
     /* overflow: auto; */
-    /* border-bottom: 10px solid rgba(149, 201, 216, 0.43); */
+    color: #0078AA;
+    border-bottom: 10px solid #F2DF3A;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 8px;  
+    font-weight: 600;
+}
+
+p{
+   margin-top: 5px;
+   margin-bottom: 3px;
+   line-height: 1.2em; 
 }
 /* .destination:hover::-webkit-scrollbar {
     display: none;
@@ -116,7 +144,6 @@ header li:hover{
     .destination {
         width: 100em;
         display: block;
-        margin-top: 5px;
     }
 
 }
